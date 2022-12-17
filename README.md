@@ -37,7 +37,7 @@
 <div class="circle" id="green-circle">
 </div>
 
-</body>
+
 
 <script type="text/javascript">
 
@@ -55,6 +55,6 @@ document.getElementById("green-circle").style.display ="none";
 
 
 </script>
-
+</body>
 </html>
 
