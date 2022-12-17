@@ -8,6 +8,7 @@
   height:100px;
   border-radius: 50%;
   margin: 20px;
+  float: left;
 }
 
 #red-circle{
@@ -15,11 +16,11 @@
 }
 
 #blue-circle{
-  background-color: red;
+  background-color: blue;
 }
 
 #green-circle{
-  background-color: red;
+  background-color: green;
 }
 
 </style>
@@ -40,16 +41,16 @@
 
 <script type="text/javascript">
 
-document.getElementById(red-circle).onclick = function(){
-document.getElementById(red-circle).style.display ="none";
+document.getElementById("red-circle").onclick = function(){
+document.getElementById("red-circle").style.display ="none";
 }
 
-document.getElementById(blue-circle).onclick = function(){
-document.getElementById(blue-circle).style.display ="none";
+document.getElementById("blue-circle").onclick = function(){
+document.getElementById("blue-circle").style.display ="none";
 }
 
-document.getElementById(green-circle).onclick = function(){
-document.getElementById(green-circle).style.display ="none";
+document.getElementById("green-circle").onclick = function(){
+document.getElementById("green-circle").style.display ="none";
 }
 
 
